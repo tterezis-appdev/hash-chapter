@@ -1,5 +1,4 @@
-# Write a program that uses the sample_hash variable and prints the value of key "history"
-
+# 
 sample_hash = {
    :class => { 
       :student => { 
@@ -11,3 +10,5 @@ sample_hash = {
       }
    }
 }
+
+puts sample_hash[:class][:student]["marks"]["history"]
